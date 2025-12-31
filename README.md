@@ -37,6 +37,9 @@ with proper database structure and business logic.
 - Overdue customers report
 - Monthly repayment summary
 
+## 📥 Data Loading
+CSV files were loaded into MySQL tables using the `LOAD DATA LOCAL INFILE` command for efficient bulk data insertion.
+
 ## 🔄 Business Logic Implemented
 - Trigger to update loan balance after repayment
 - Automatic status change to CLOSED when loan balance becomes zero
